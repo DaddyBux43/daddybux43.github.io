@@ -33,7 +33,7 @@ HEADER CLASSES
 -------------------------------------------------*/
 .header-wrap{ background:#000 url(../images/bg2.jpg) repeat-x; height:150px; width:100%; }
 .logo{ width:360px; margin:0 auto;}
-.logo h1{ color:#ffffff; font-size:60px; font-weight: bolder; padding-top:70px; padding-bottom:40px;}
+.logo h1{ color:#ffffff; font: size 45px; font-weight: normal; padding-top:70px; padding-bottom:40px;}
 
 /*-------------------------------------------------
 MENU CLASSES
