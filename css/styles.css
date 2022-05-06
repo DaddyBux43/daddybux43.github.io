@@ -1,7 +1,7 @@
 /*-------------------------------------------------
 GLOBALS CLASSES 
 -------------------------------------------------*/
-/*{padding:0; margin:0;}
+*{padding:0; margin:0;}
 body{font-family:"Trebuchet MS"; font-size:14px; color:#ffed71; background:url(../images/bg1.jpg);}
 img{border:none;}
 h1{ font-family:"Trebuchet MS"; font-size:22px; font-weight:normal;}
@@ -12,7 +12,7 @@ a:hover{color:#ffffff;}
 /*-------------------------------------------------
 GENERAL CLASSES
 -------------------------------------------------*/
-/*.clearing { clear:both;}
+.clearing { clear:both;}
 .marTop20{margin-top:20px;}
 .marTop30{margin-top:30px;}
 .marTop40{margin-top:40px;}
