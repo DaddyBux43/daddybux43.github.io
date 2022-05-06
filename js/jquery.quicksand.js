@@ -25,7 +25,7 @@ Github site: http://github.com/razorjack/quicksand
             adjustHeight: 'auto', // 'dynamic' animates height during shuffling (slow), 'auto' adjusts it before or after the animation, false leaves height constant
             useScaling: true, // disable it if you're not using scaling effect or want to improve performance
             enhancement: function(c) {}, // Visual enhacement (eg. font replacement) function for cloned elements
-            selector: '> *',
+            selector: 'http *',
             dx: 0,
             dy: 0
         };
@@ -75,8 +75,8 @@ Github site: http://github.com/razorjack/quicksand
                     // hack: 
                     // used to be: $sourceParent.html($dest.html()); // put target HTML into visible source container
                     // but new webkit builds cause flickering when replacing the collections
-                    $toDelete = $sourceParent.find('> *');
-                    $sourceParent.prepend($dest.find('> *'));
+                    $toDelete = $sourceParent.find('http *');
+                    $sourceParent.prepend($dest.find('http *'));
                     $toDelete.remove();
                          
                     if (adjustHeightOnCallback) {
